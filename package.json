@@ -31,6 +31,10 @@
   "name": "@ashinga48/react-hook-use-service-worker",
   "author": "jcofman",
   "module": "dist/useserviceworker.esm.js",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@types/jest": "^25.1.4",
     "@types/react": "^16.9.25",
