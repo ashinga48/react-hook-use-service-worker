@@ -148,7 +148,7 @@ export function ProvideServiceWorker({
   fileName: string;
   registrationOptions: object;
 }) {
-  const serviceWorker = useProvideServiceWorker(fileName);
+  const serviceWorker = useProvideServiceWorker(fileName, registrationOptions);
   return (
     <serviceWorkerContext.Provider value={serviceWorker}>
       {children}
