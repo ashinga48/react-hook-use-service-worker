@@ -30,6 +30,8 @@ jobs:
           registry-url: https://registry.npmjs.org/
       # semantic release action from third party
       - uses: codfish/semantic-release-action@master
+      - run: npm install
+      - run: npm run build    
     # Add the environment variable for NPM and github. Github is needed because semantic-release will create a new release and release notes automatically
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
