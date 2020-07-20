@@ -28,7 +28,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "react-hook-use-service-worker",
+  "name": "@ashinga48/react-hook-use-service-worker",
   "author": "jcofman",
   "module": "dist/useserviceworker.esm.js",
   "devDependencies": {
