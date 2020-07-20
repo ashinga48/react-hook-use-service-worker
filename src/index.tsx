@@ -142,9 +142,11 @@ const serviceWorkerContext = React.createContext(initialState);
 export function ProvideServiceWorker({
   children,
   fileName,
+  registrationOptions
 }: {
   children: React.ReactNode;
   fileName: string;
+  registrationOptions: object;
 }) {
   const serviceWorker = useProvideServiceWorker(fileName);
   return (
